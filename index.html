@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Форма отправки</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+	<div class="article">
+					<h1>Обратная связь</h1>
+					<h3>Оставьте заявку и мы с Вами свяжемся</h3>
+					<div class="clr"></div>
+					<form class="form" method="POST">
+						<ol>
+
+	<form class="form" id="form" name="form">
+		<label for="name" id="color">Ваше имя</label>
+		<input type="text" class="form-field" name="name" placeholder="Введите ваше имя">
+
+		<label for="email" id="color">Телефон</label>
+		<input type="text" class="form-field" name="phone" placeholder="Введите ваш телефон">
+
+		<label for="email" id="color">Ваш E-mail</label>
+		<input type="text" class="form-field" name="email" placeholder="Введите ваш e-mail">
+		<button class="form-button"><span class="text-button">Отправить заявку</span></button>
+	</form>
+
+</ol>
+</form>
+</div>
+
+	<footer>
+		<div class="overlay js-overlay-thank-you">
+			<div class="popup js-thank-you">
+				<h2>Спасибо за заявку</h2>
+				<div class="close-popup js-close-thank-you"></div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="main.js"></script>
+	<script src="jquery.maskedinput.js"></script>
+
+</body>
+</html>
