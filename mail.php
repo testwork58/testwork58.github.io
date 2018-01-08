@@ -1,7 +1,7 @@
 <?php
 
 $recepient = "rudi.scorp@yandex.ru";
-$siteName = "Ajax-форма";
+$siteName = "Форма отправки";
 
 $name = trim($_POST["name"]);
 $phone = trim($_POST["phone"]);
